@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @property string $name
  * @property User $user
  * @property Page[] $pages
- * @property Activity[] $activities
+ * @property \Illuminate\Database\Eloquent\Collection<Activity> $activities
  * @property-read CarbonInterface $created_at
  * @property-read CarbonInterface $updated_at
  */
